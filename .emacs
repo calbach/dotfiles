@@ -43,7 +43,6 @@
 
 (global-set-key (kbd "C-c j") (lambda () (interactive) (insert "/**\n *\n */")))
 
-; Redonkulous eshell prompt.
 (defmacro with-face (str &rest properties)
   `(propertize ,str 'face (list ,@properties)))
 
